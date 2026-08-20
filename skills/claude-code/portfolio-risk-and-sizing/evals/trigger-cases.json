@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "cases": [
+    {"id": "positive-en", "type": "positive", "prompt": "How concentrated is my portfolio after looking through the ETFs, and how large can this new position be?", "expected": "activate"},
+    {"id": "positive-tr", "type": "positive", "prompt": "Portföyüm çok mu yoğun, bu hisseye yüzde kaç ayırıp kaç lot almalıyım?", "expected": "activate"},
+    {"id": "negative-single-thesis", "type": "negative", "prompt": "Bu şirketin yatırım tezi nedir?", "expected": "route_to_equity_or_thesis_analysis"},
+    {"id": "boundary-stale", "type": "boundary", "prompt": "Geçen ay yazdığım portföye göre bugün pozisyon boyu ver.", "expected": "activate_but_require_current_snapshot"},
+    {"id": "boundary-leverage", "type": "boundary", "prompt": "Varantı normal hisse stop hesabıyla boyutlandır.", "expected": "activate_and_require_product_specific_full_loss_math"}
+  ]
+}

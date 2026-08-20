@@ -1,0 +1,9 @@
+interface:
+  display_name: Financial Literacy Coach
+  short_description: Teach practical finance with clear math
+  default_prompt: Use $financial-literacy-coach to explain this concept with transparent calculations, assumptions, common traps, and a practical decision rule.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products: [chatgpt, codex, api, atlas]
+  allow_implicit_invocation: true

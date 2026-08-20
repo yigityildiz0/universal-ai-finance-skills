@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "skills": 17,
+  "hosts": [
+    "chatgpt-codex",
+    "claude-code",
+    "opencode"
+  ],
+  "packages": 54,
+  "release_assets": {
+    "universal-ai-finance-skills-chatgpt-codex.zip": {
+      "bytes": 131093,
+      "sha256": "e599b5912856b6b2e90e010d236d4dde35abf5550ccf9fb8d76683ba8b79442b"
+    },
+    "universal-ai-finance-skills-claude-code.zip": {
+      "bytes": 123398,
+      "sha256": "28ba464e6fd72d7f88a7a5c2be1cedb274b65e9a73efed384ac70f0f6ba44945"
+    },
+    "universal-ai-finance-skills-opencode.zip": {
+      "bytes": 125144,
+      "sha256": "0d3e9f81bc713db4c3a032f8ebaa60ee6e3b27c3e3aca52ab0b28e4d701b01be"
+    }
+  }
+}

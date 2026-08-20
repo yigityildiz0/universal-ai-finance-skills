@@ -1,0 +1,9 @@
+interface:
+  display_name: Market Regime Analysis
+  short_description: Map cross-asset regime and transitions
+  default_prompt: Use $market-regime-analysis to measure the current regime across trend, volatility, breadth, liquidity, macro, credit, earnings, and dated events.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products: [chatgpt, codex, api, atlas]
+  allow_implicit_invocation: true

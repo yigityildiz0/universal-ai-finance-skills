@@ -1,0 +1,9 @@
+interface:
+  display_name: Warrant and Structured Product Analyst
+  short_description: Verify and model warrant product risk
+  default_prompt: Use $warrant-structured-product-analyst to verify this exact product and analyze its payoff, quote, time and volatility sensitivity, scenarios, and maximum loss.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products: [chatgpt, codex, api, atlas]
+  allow_implicit_invocation: true

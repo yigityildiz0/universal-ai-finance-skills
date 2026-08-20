@@ -1,0 +1,9 @@
+interface:
+  display_name: Portfolio Risk and Sizing
+  short_description: Measure exposure and size portfolio actions
+  default_prompt: Use $portfolio-risk-and-sizing to analyze concentration, look-through overlap, liquidity, stress loss, and the binding position-size constraint.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products: [chatgpt, codex, api, atlas]
+  allow_implicit_invocation: true
