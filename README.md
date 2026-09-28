@@ -1,5 +1,7 @@
 # Universal AI Finance Skills
 
+> **New — version 2:** a single routed copilot with a live BIST data engine, investment committee and trade planning now lives at [yigit-investment-copilot](https://github.com/yigityildiz0/yigit-investment-copilot). This repository stays available as v1 (17 separate skills).
+
 Seventeen bilingual, portable Agent Skills for evidence-based investing, financial literacy, BIST/TEFAS, warrants, funds, public equities, crypto research, portfolio risk, and calibrated forecasting.
 
 This library is designed to make an AI assistant a more disciplined research and decision partner—not an oracle. It can rank candidates and give a conditional action, but every forecast must carry an evidence cutoff, horizon, range or probability, counter-thesis, risk limit, and invalidation rule. No skill guarantees returns, executes trades autonomously, or handles brokerage credentials.
