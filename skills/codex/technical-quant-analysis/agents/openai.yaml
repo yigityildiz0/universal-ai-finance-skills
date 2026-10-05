@@ -1,0 +1,14 @@
+interface:
+  display_name: Technical Quant Analysis
+  short_description: Teknik analiz, senaryo ve backtest denetimi
+  default_prompt: Use $technical-quant-analysis to analyze this instrument from verified
+    OHLCV data and report scenarios, invalidation, and risk.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

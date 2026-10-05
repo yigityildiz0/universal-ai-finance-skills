@@ -1,0 +1,9 @@
+interface:
+  display_name: Pre-Trade Investment Gate
+  short_description: Final read-only investment readiness check
+  default_prompt: Use $pre-trade-investment-gate to run a fail-closed final readiness check without placing an order.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products: [chatgpt, codex, api, atlas]
+  allow_implicit_invocation: true

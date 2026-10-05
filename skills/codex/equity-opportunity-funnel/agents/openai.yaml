@@ -1,0 +1,14 @@
+interface:
+  display_name: Equity Opportunity Funnel
+  short_description: Broad equity screening and deep candidate selection
+  default_prompt: Use $equity-opportunity-funnel to scan a broad stock universe, progressively
+    deepen the best candidates, and return only recommendation-grade ideas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

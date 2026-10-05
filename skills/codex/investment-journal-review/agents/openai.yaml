@@ -1,0 +1,9 @@
+interface:
+  display_name: Investment Journal Review
+  short_description: Learn from decisions without hindsight bias
+  default_prompt: Use $investment-journal-review to separate process from outcome, score matured forecasts, find robust patterns, and propose measurable improvements.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products: [chatgpt, codex, api, atlas]
+  allow_implicit_invocation: true

@@ -1,0 +1,9 @@
+interface:
+  display_name: Public Equity Research
+  short_description: Deep primary-source company and stock analysis
+  default_prompt: Use $public-equity-research to analyze this exact listed company from primary filings, normalized financials, valuation, scenarios, catalysts, risks, and thesis criteria.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products: [chatgpt, codex, api, atlas]
+  allow_implicit_invocation: true

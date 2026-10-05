@@ -1,0 +1,14 @@
+interface:
+  display_name: Turkey Markets Analysis
+  short_description: BIST, KAP, TEFAS, and Türkiye macro analysis
+  default_prompt: Use $turkey-markets-analysis to analyze this BIST security, TEFAS
+    fund, or Turkish market question with official current sources.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,15 @@
+interface:
+  display_name: Investment Red Team
+  short_description: Re-underwrite a thesis without anchoring
+  default_prompt: Use $investment-red-team to re-underwrite this decision without
+    anchoring, recompute key numbers, compare the best relevant alternatives and doing
+    nothing, and identify what would invalidate the result.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

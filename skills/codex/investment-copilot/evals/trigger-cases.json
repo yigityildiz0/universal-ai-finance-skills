@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Semantic trigger acceptance cases; design tests, not runtime activation logs.",
+  "cases": [
+    {
+      "id": "positive-en-buy",
+      "type": "positive",
+      "prompt": "Should I buy this stock now, and how much downside should I plan for?",
+      "expected": "activate",
+      "reason": "Personal investment action with sizing/risk intent."
+    },
+    {
+      "id": "positive-tr-stock",
+      "type": "positive",
+      "prompt": "Bu hisse alınır mı, 2-3 ayda ne kadar yükselir ve kaç lot mantıklı?",
+      "expected": "activate",
+      "reason": "Turkish buy, forecast, and sizing intent."
+    },
+    {
+      "id": "positive-reconsider",
+      "type": "positive",
+      "prompt": "Emin misin? Baştan tekrar bak ve daha mantıklı alternatif varsa değiştir.",
+      "expected": "activate_with_red_team",
+      "reason": "Explicit reconsideration requires de-anchored comparison."
+    },
+    {
+      "id": "negative-product-price",
+      "type": "negative",
+      "prompt": "Bu monitör Türkiye fiyatıyla alınır mı?",
+      "expected": "route_to_market_pricing_analysis",
+      "reason": "Retail product value is not a securities decision."
+    },
+    {
+      "id": "boundary-live-data",
+      "type": "boundary",
+      "prompt": "Şu varanttan bugün 300 TL ile kaç adet alayım?",
+      "expected": "activate_but_require_verified_product_identity_live_quote_and_leveraged_product_math",
+      "reason": "Exact leveraged sizing requires executable current inputs."
+    }
+  ]
+}

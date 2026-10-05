@@ -1,0 +1,9 @@
+interface:
+  display_name: Fund and ETF Analyst
+  short_description: Evidence-based fund and ETF comparison
+  default_prompt: Use $fund-etf-analyst to compare these funds or ETFs by identity, mandate, benchmark, holdings, costs, risk, liquidity, and portfolio fit.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products: [chatgpt, codex, api, atlas]
+  allow_implicit_invocation: true

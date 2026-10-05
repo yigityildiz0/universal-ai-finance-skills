@@ -1,0 +1,14 @@
+interface:
+  display_name: Probabilistic Market Forecast
+  short_description: Realistic price ranges and probability estimates
+  default_prompt: Use $probabilistic-market-forecast to estimate realistic price ranges,
+    probabilities, and downside for this instrument and horizon.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

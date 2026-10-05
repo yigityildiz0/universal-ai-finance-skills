@@ -1,0 +1,13 @@
+interface:
+  display_name: Investment Copilot
+  short_description: Evidence-based investment decision support
+  default_prompt: Use $investment-copilot to analyze this investment decision with current evidence, scenarios, risk limits, and a clear conditional action.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

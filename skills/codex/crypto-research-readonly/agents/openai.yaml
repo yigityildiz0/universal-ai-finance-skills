@@ -1,0 +1,14 @@
+interface:
+  display_name: Crypto Research Readonly
+  short_description: Read-only crypto research and risk analysis
+  default_prompt: Use $crypto-research-readonly to research this crypto asset with
+    verified identity, multi-venue prices, tokenomics, and downside risks.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

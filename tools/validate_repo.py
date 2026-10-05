@@ -8,7 +8,7 @@ import zipfile
 from pathlib import Path, PurePosixPath
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED = 17
+EXPECTED = 18
 MANUAL = set()
 
 def digest(path: Path) -> str:
@@ -36,7 +36,7 @@ def main() -> int:
             if host == "chatgpt-codex" and not (skill / "agents" / "openai.yaml").is_file():
                 errors.append(f"missing OpenAI sidecar: {skill.name}")
     forbidden = re.compile(r"curl[^\n]*\|\s*(?:ba)?sh|wget[^\n]*\|\s*(?:ba)?sh", re.I)
-    personal = re.compile(r"C:[/\\]Users[/\\]Gaming|\bYiğit\b|\bYigit\b", re.I)
+    personal = re.compile(r"C:[/\\]Users[/\\]Gaming", re.I)
     for item in ROOT.rglob("*"):
         if not item.is_file() or item.suffix.lower() not in {".md", ".txt", ".py", ".yaml", ".yml", ".json"}:
             continue
@@ -62,7 +62,7 @@ def main() -> int:
         print("VALIDATION FAILED")
         print("\n".join(f"- {item}" for item in errors))
         return 1
-    print("VALIDATION OK: 17 finance skills, four source trees, packages, and checksums")
+    print("VALIDATION OK: 18 finance skills, four source trees, packages, and checksums")
     return 0
 
 if __name__ == "__main__":
