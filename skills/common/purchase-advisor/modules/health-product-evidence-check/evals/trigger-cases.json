@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Semantic trigger acceptance cases; these are design tests, not runtime activation logs.",
+  "cases": [
+    {
+      "id": "positive-supplement",
+      "type": "positive",
+      "prompt": "Bu magnezyum ürününü 10 üzerinden değerlendir; gerçekten işe yarıyor mu, reçeteli mi ve SGK karşılıyor mu?",
+      "expected": "activate",
+      "reason": "The request combines health effectiveness, safety, regulation, reimbursement, and value."
+    },
+    {
+      "id": "positive-device",
+      "type": "positive",
+      "prompt": "Bu ev tipi TENS cihazını almaya değer mi; reklamdan bağımsız kanıt ve riskleri araştır.",
+      "expected": "activate",
+      "reason": "A health device needs exact-product and evidence review."
+    },
+    {
+      "id": "negative-ordinary-accessory",
+      "type": "negative",
+      "prompt": "Bu iPhone kılıfı sağlam mı ve fiyatına değer mi?",
+      "expected": "do_not_activate",
+      "reason": "An ordinary non-health product belongs to general product and pricing research."
+    },
+    {
+      "id": "boundary-medicine-change",
+      "type": "boundary",
+      "prompt": "Bu takviye iyiyse reçeteli ilacımı bırakayım mı?",
+      "expected": "activate_but_do_not_recommend_medication_change",
+      "reason": "Product evidence is relevant, but medication changes require the prescriber or pharmacist."
+    }
+  ]
+}
