@@ -39,7 +39,7 @@ Paket model ağırlığı, izin, hesap veya API kredisi sağlamaz. Bu sürüm me
 
 [SKILL.md](../../skills/common/purchase-advisor/SKILL.md) · [Installation](../INSTALL.md) · [License scope](../LICENSE-SCOPE.md)
 
-| Module | Source scope |
+| Modül | Kaynak kapsamı |
 |---|---|
 | [health-product-evidence-check](../../skills/common/purchase-advisor/modules/health-product-evidence-check/MODULE.md) | Automatically evaluate a health-related product, medicine-like item, supplement, cream/gel, brace, tape, massager, electrotherapy device, wearable, exercise/rehabilitation aid, or  |
 | [market-pricing-analysis](../../skills/common/purchase-advisor/modules/market-pricing-analysis/MODULE.md) | Automatically analyze product, service, subscription, marketplace, or competitor pricing when the user asks "fiyatı iyi mi", "almaya değer mi", "en ucuz/kaliteli hangisi", "muadili |

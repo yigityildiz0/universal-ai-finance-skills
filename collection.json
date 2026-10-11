@@ -21,6 +21,6 @@
     "price / purchase assessment": "purchase-advisor"
   },
   "repository": "universal-ai-finance-skills",
-  "base_commit": "aad39e2c791f84bf86e165c5d6f8ecb4373eed62",
+  "base_commit": "e9b89ae3c3394cc4e627f2d96eaedcdfcc305913",
   "canonical_repository": "universal-ai-skill-library"
 }

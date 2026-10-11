@@ -39,7 +39,7 @@ Paket model ağırlığı, izin, hesap veya API kredisi sağlamaz. Bu sürüm me
 
 [SKILL.md](../../skills/common/data-analyst/SKILL.md) · [Installation](../INSTALL.md) · [License scope](../LICENSE-SCOPE.md)
 
-| Module | Source scope |
+| Modül | Kaynak kapsamı |
 |---|---|
 | [data-analysis](../../skills/common/data-analyst/modules/data-analysis/MODULE.md) | Perform defensible exploratory, descriptive, statistical, or diagnostic analysis on structured data. Use for analyze data, investigate a metric, statistics, data quality, trends, c |
 | [data-context](../../skills/common/data-analyst/modules/data-context/MODULE.md) | Create or repair a durable data context containing schema, grain, metric definitions, lineage, ownership, freshness, and quality caveats. Use for data dictionary, metric definition |
