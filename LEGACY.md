@@ -6,4 +6,4 @@ Use README and DOWNLOADS for the current edition. Old tags/downloads may contain
 
 Türkçe: Güncel kapsam current-release.json ile tanımlanır. Eski katalog ve kaynaklar izlenebilirlik için korunur; eski sayı ve test iddiaları güncel kapsam değildir. Güncel README/indirmeleri kullan. Eski sürümler farklı sağlayıcı/host varsayımları içerebilir. Gemini Deep Research güncel sürümde yoktur; eski `slides` artık `html-slides` (yalnız tarayıcı sunumu), PowerPoint işleri `presentation-studio`'da.
 
-[Previous README at the preserved base commit](https://github.com/yigityildiz0/universal-ai-finance-skills/blob/e8374082758b260477a938acda793310b2e4b1af/README.md).
+[Previous README at the preserved base commit](https://github.com/yigityildiz0/universal-ai-finance-skills/blob/f1f60bda7adcfa286f2eca08503d26ee7e586fb2/README.md).
