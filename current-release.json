@@ -1,5 +1,5 @@
 {
-  "edition": "2026.10.14.3",
+  "edition": "2026.10.14.4",
   "repository": "universal-ai-finance-skills",
   "canonical": "universal-ai-skill-library",
   "skills": [
@@ -13,7 +13,7 @@
     "yigit-investment-copilot": 1
   },
   "artifact_sha256": {
-    "downloads/ChatGPT.zip": "c479171be5300d37a8de50aedfad64c7a3325cfe6468224b898c990737334bca",
+    "downloads/ChatGPT.zip": "8204850ecf87188dded7dd64237aff99b565aff12e91534cf0f57d1f77137ff0",
     "downloads/Claude.zip": "2b0df40a22f31462473867bd4706c076d590a77ac03f255b64fcb97fc7f0fc68",
     "downloads/Codex.zip": "1368ae78c1c9da440e681a98a3af9fc0218af80aaed0b01743ba35b7791b6eac",
     "downloads/Gemini.zip": "4631e9fe665836b36fae7d1805405d745a882df7e3ef979516a196d31f139d25",
@@ -21,9 +21,9 @@
     "packages/portable/data-analyst.zip": "9737ddbeba22902794ab2ee0160eea6721a75a490f9b7aea0e850b8549adc8b9",
     "packages/portable/purchase-advisor.zip": "4ed48e3f2fa9ac1e3eb07b0e43700585423d9b911dd22d01dfa914999a82057e",
     "packages/portable/yigit-investment-copilot.zip": "3c90fa0cf936a9eb8d0f10edf3c5a24fffe7858be072865be00a283e02f4150b",
-    "packages/chatgpt/data-analyst.zip": "2278e92561692bceb019d3b6829257ec892466eff53a44e4464f66ffca63a92a",
-    "packages/chatgpt/purchase-advisor.zip": "3514e0703aeb6058faec3f27641d60a41cb973029cc862cc2ec35b3216bd61b2",
-    "packages/chatgpt/yigit-investment-copilot.zip": "fc19ae1f74a3311723607b7c8ed9e672e5f82cdd3b454d2bc57c9d50db9fabe8",
+    "packages/chatgpt/data-analyst.zip": "17e5356980b7afdf877e5ac75a05e60e42889b1cf267944a0be9872c2b30ea6d",
+    "packages/chatgpt/purchase-advisor.zip": "2eb25d084fb6abc3d63b81f8b772295c4733dfbff7523850fb02046a7af742cd",
+    "packages/chatgpt/yigit-investment-copilot.zip": "00920dcf1fb8b5ab3d2c9389444b8cf8b7c0035820852cf253a46ac582344009",
     "packages/claude/data-analyst.zip": "f0876615e1c65e809698ecbeee5b0399a96163c343d317fba0ca581ed6404d37",
     "packages/claude/purchase-advisor.zip": "54d5592f74cda125721dcb3a5ecde8bff27fbe470485e00ce44ef5339bfe591e",
     "packages/claude/yigit-investment-copilot.zip": "d6a2bc6c0bd24075bfec6286a0a59a6064150c39c48ab816d3a7dfa5997e90f2",
